@@ -1,9 +1,8 @@
-# Assignment: contactsManager.py
+# Assignment: dog.py
 # Class: DEV 128
-# Date: 04/17/2025
+# Date: 04/26/2025
 # Author: Jonah Martinez
-# Description: Program to manage a list of contacts
-
+# Description: Program to simulate a dog object with attributes and methods.
 
 class Dog:
     def __init__(self, name: str, color: str, weight: float = 10.0):
