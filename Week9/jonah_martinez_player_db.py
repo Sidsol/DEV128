@@ -1,4 +1,4 @@
-# Assignment: Player DB 
+# Assignment: Player DB
 # Class: DEV 128
 # Date: 06/09/2025
 # Author: Jonah Martinez
@@ -105,8 +105,6 @@ def delete_player(name):
         sql = """DELETE FROM Player WHERE name = ?"""
         c.execute(sql, (name,))
     conn.commit()
-    # If no player found, do nothing
-    pass
 
 
 def main():
